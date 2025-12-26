@@ -1,0 +1,37 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	background: #000;
+	color: #fff;
+	height: 100vh;
+}
+
+#flipbook-container {
+	width: 360px; /* можно под мобильный экран */
+	height: 640px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#flipbook-frame {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+#flipbook-slider {
+	width: 80%;
+}
+
+button {
+	margin-top: 10px;
+	padding: 10px 20px;
+}
+
+#flipbook-slider {
+	max-width: 479px;
+	display: none;
+}
